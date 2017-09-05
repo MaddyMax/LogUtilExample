@@ -7,7 +7,7 @@ import android.util.Log;
 public class LogPrint {
     private String logTag = "Log Gradle Tag";
 
-    LogPrint(String value){
+    public LogPrint(String value){
         Log.d(logTag,value);
     }
 }
